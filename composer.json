@@ -1,0 +1,25 @@
+{
+    "name": "eguanacommerce/kcp-sdk-php",
+    "description": "KCP Payment PHP Client Library",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-openssl": "*",
+        "ext-soap": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eguana Commerce",
+            "email": "soniapark@eguanacommerce.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Kcp": "lib/"
+        },
+        "psr-4": {
+            "Kcp\\": "lib"
+        }
+    }
+}
